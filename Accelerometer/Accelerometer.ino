@@ -76,7 +76,6 @@ void checkSetup()
 }
 
 void loop() {
-  // put your main code here, to run repeatedly:
   Vector norm = accelerometer.readNormalize();
 
   // Output normalized m/s^2
@@ -91,16 +90,6 @@ void loop() {
 
   // Read activities
   Activites activities = accelerometer.readActivites();
-
-//  if (activities.isActivity)
-//  {
-//    Serial.println("Activity Detected");
-//  }
-//
-//  if (activities.isInactivity)
-//  {
-//    Serial.println("Inactivity Detected");
-//  }
   
   if (activities.isDoubleTap)
   {
