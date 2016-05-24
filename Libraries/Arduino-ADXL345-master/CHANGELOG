@@ -1,0 +1,26 @@
+ADXL345 Arduino Library 1.1.0 / 16.10.2014
+======================================================================
+
+ * Allow set gravity factor on readNormalize(float gravityFactor)
+   ADXL345_GRAVITY_SUN (results in m/s2)
+   ADXL345_GRAVITY_EARTH (results in m/s2)
+   ADXL345_GRAVITY_MOON (results in m/s2)
+   ADXL345_GRAVITY_MARS(results in m/s2)
+   ADXL345_GRAVITY_NONE (results in g)
+   Default: ADXL345_GRAVITY_EARTH
+
+ADXL345 Arduino Library 1.0.2 / 26.01.2014
+======================================================================
+
+ * Fix typedefs & structs names
+ * New chart processing code
+
+ADXL345 Arduino Library 1.0.1 / 24.01.2014
+======================================================================
+
+ * Fix registerRead16()
+
+ADXL345 Arduino Library 1.0.0 / 18.01.2014
+======================================================================
+
+ * First release

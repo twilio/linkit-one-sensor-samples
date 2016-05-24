@@ -1,0 +1,35 @@
+########################################
+#
+# Syntax Coloring Map For NulSom_Rainbow
+#
+#########################################
+
+#########################################
+#
+# Datatypes (KEYWORD1)
+#
+#########################################
+
+NS_Rainbow	KEYWORD1
+
+#########################################
+#
+# Methods and Functions (KEYWORD2)
+#
+#########################################
+
+begin	KEYWORD2
+end	KEYWORD2
+show	KEYWORD2
+clear	KEYWORD2
+setPin	KEYWORD2
+freePin	KEYWORD2
+setColor	KEYWORD2
+setBrightness	KEYWORD2
+getBrightness KEYWORD2
+getCellAddr KEYWORD2
+numCells	KEYWORD2
+RGBtoColor	KEYWORD2
+getColor	KEYWORD2
+SIG_PIN	KEYWORD2
+MAX_SIZE	KEYWORD2
