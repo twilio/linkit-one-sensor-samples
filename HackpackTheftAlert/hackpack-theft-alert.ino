@@ -10,7 +10,7 @@
 #include "ADXL345.h"
 #include "DisplayManager.h"
 
-#define SITE_URL "brent.ngrok.io"
+#define SITE_URL "[your_site_url]"
 
 ADXL345 accelerometer;
 LGPRSClient client;
